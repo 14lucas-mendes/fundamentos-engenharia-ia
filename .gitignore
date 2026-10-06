@@ -1,0 +1,7 @@
+# Travas temporarias do state_io, caches do Python e segredos locais
+*.lock
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*

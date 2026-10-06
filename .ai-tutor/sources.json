@@ -1,0 +1,298 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
+  "revision": 1,
+  "sources": [
+    {
+      "source_id": "source_programe_trilha",
+      "title": "Trilha do Engenheiro de IA",
+      "author": "Rafael Quintanilha / programe.ai",
+      "url": "https://programe.ai/trilha-do-engenheiro-de-ia",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "fetched",
+      "type": "curso (pt-BR)",
+      "topic_ids": [
+        "topic_modelos_tokens_contexto",
+        "topic_prompts_interface",
+        "topic_tools_function_calling",
+        "topic_mcp_integracoes",
+        "topic_agentes_subagentes",
+        "topic_seguranca_harness"
+      ],
+      "why_authoritative": "Referência de escopo em pt-BR; o 1º curso tem o mesmo nome e tópicos deste estudo. Não é fonte da verdade."
+    },
+    {
+      "source_id": "source_from_scratch",
+      "title": "ai-engineering-from-scratch",
+      "author": "rohitg00 (GitHub)",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "user_report",
+      "type": "repositório/currículo",
+      "topic_ids": [
+        "topic_modelos_tokens_contexto",
+        "topic_prompts_interface",
+        "topic_tools_function_calling",
+        "topic_mcp_integracoes",
+        "topic_memoria_estado",
+        "topic_agentes_subagentes",
+        "topic_seguranca_harness",
+        "topic_avaliacao_ia"
+      ],
+      "why_authoritative": "Prática de código; avaliado no relatório do usuário (30/09/2026): suíte passa, mas agentes majoritariamente simulados."
+    },
+    {
+      "source_id": "source_ai_eng_hub",
+      "title": "ai-engineering-hub",
+      "author": "patchy631 (GitHub)",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "user_report",
+      "type": "repositório/projetos",
+      "topic_ids": [
+        "topic_formatos_ferramentas",
+        "topic_memoria_estado"
+      ],
+      "why_authoritative": "Somente referência de implementação com frameworks; reprodutibilidade baixa segundo o relatório do usuário."
+    },
+    {
+      "source_id": "source_anthropic_effective_agents",
+      "title": "Building effective agents",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_assistentes_workflows",
+        "topic_agentes_subagentes"
+      ],
+      "why_authoritative": "Fonte primária do fabricante; define workflows vs agentes e padrões."
+    },
+    {
+      "source_id": "source_anthropic_context_eng",
+      "title": "Effective context engineering for AI agents",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_modelos_tokens_contexto",
+        "topic_memoria_estado",
+        "topic_prompts_interface"
+      ],
+      "why_authoritative": "Fonte primária; context rot, compactação, notas persistentes."
+    },
+    {
+      "source_id": "source_anthropic_multiagent",
+      "title": "How we built our multi-agent research system",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_agentes_subagentes"
+      ],
+      "why_authoritative": "Caso real de produção com trade-off de custo (~15x tokens)."
+    },
+    {
+      "source_id": "source_anthropic_tools",
+      "title": "Writing effective tools for agents — with agents",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_tools_function_calling",
+        "topic_mcp_integracoes"
+      ],
+      "why_authoritative": "Fonte primária sobre design de tools."
+    },
+    {
+      "source_id": "source_anthropic_skills",
+      "title": "Equipping agents for the real world with Agent Skills",
+      "author": "Anthropic (B. Zhang, K. Lazuka, M. Murag)",
+      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_mcp_integracoes"
+      ],
+      "why_authoritative": "Fonte primária; progressive disclosure."
+    },
+    {
+      "source_id": "source_anthropic_evals",
+      "title": "Demystifying evals for AI agents",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de engenharia oficial",
+      "topic_ids": [
+        "topic_avaliacao_ia"
+      ],
+      "why_authoritative": "Fonte primária sobre avaliação de agentes."
+    },
+    {
+      "source_id": "source_claude_tool_use",
+      "title": "Tool use with Claude (docs)",
+      "author": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "documentação oficial",
+      "topic_ids": [
+        "topic_tools_function_calling",
+        "topic_arquitetura_aplicacao"
+      ],
+      "why_authoritative": "Documentação oficial: client tools executam na sua aplicação (tool_use → tool_result)."
+    },
+    {
+      "source_id": "source_claude_code_sandboxing",
+      "title": "Claude Code — Sandboxing / permissions (docs)",
+      "author": "Anthropic",
+      "url": "https://code.claude.com/docs/en/sandboxing",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "documentação oficial",
+      "topic_ids": [
+        "topic_seguranca_harness",
+        "topic_formatos_ferramentas",
+        "topic_agentes_subagentes"
+      ],
+      "why_authoritative": "Defense-in-depth: permissões + sandbox no nível do SO."
+    },
+    {
+      "source_id": "source_claude_memory",
+      "title": "Context management / memory tool",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/news/context-management",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "anúncio oficial + docs",
+      "topic_ids": [
+        "topic_memoria_estado"
+      ],
+      "why_authoritative": "Memória persistente client-side fora da janela de contexto."
+    },
+    {
+      "source_id": "source_mcp_spec",
+      "title": "Model Context Protocol — Specification (2026-07-28)",
+      "author": "MCP project",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/architecture",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "especificação oficial",
+      "topic_ids": [
+        "topic_mcp_integracoes"
+      ],
+      "why_authoritative": "Especificação normativa; versão 2026-07-28 indicada como protocolo stateless (confirmar na aula)."
+    },
+    {
+      "source_id": "source_openai_agents_guide",
+      "title": "A practical guide to building agents",
+      "author": "OpenAI",
+      "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "guia oficial",
+      "topic_ids": [
+        "topic_assistentes_workflows",
+        "topic_agentes_subagentes",
+        "topic_seguranca_harness"
+      ],
+      "why_authoritative": "Fonte primária; quando usar agentes, orquestração, guardrails."
+    },
+    {
+      "source_id": "source_openai_structured",
+      "title": "Introducing Structured Outputs in the API",
+      "author": "OpenAI",
+      "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "anúncio oficial",
+      "topic_ids": [
+        "topic_prompts_interface"
+      ],
+      "why_authoritative": "Saída garantida por JSON Schema."
+    },
+    {
+      "source_id": "source_owasp_llm",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "author": "OWASP Gen AI Security Project",
+      "url": "https://genai.owasp.org/llm-top-10/",
+      "published_or_updated": "2025",
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "padrão da indústria",
+      "topic_ids": [
+        "topic_seguranca_harness"
+      ],
+      "why_authoritative": "Referência de segurança: LLM01 Prompt Injection, LLM06 Excessive Agency."
+    },
+    {
+      "source_id": "source_willison_trifecta",
+      "title": "The lethal trifecta for AI agents",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/",
+      "published_or_updated": "2025-06-16",
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "blog de especialista",
+      "topic_ids": [
+        "topic_seguranca_harness"
+      ],
+      "why_authoritative": "Autor do termo 'prompt injection'; modelo mental dados privados + conteúdo não confiável + comunicação externa."
+    },
+    {
+      "source_id": "source_hamel_evals",
+      "title": "LLM Evals: Everything You Need to Know",
+      "author": "Hamel Husain & Shreya Shankar",
+      "url": "https://hamel.dev/blog/posts/evals-faq/",
+      "published_or_updated": null,
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "guia de especialistas",
+      "topic_ids": [
+        "topic_avaliacao_ia"
+      ],
+      "why_authoritative": "Referência prática em error analysis e evals."
+    },
+    {
+      "source_id": "source_huyen_ai_eng",
+      "title": "AI Engineering: Building Applications with Foundation Models",
+      "author": "Chip Huyen (O'Reilly)",
+      "url": "ISBN 9781098166304",
+      "published_or_updated": "2025-01-07",
+      "accessed_at": "2026-09-30",
+      "access": "search_listing",
+      "type": "livro de referência",
+      "topic_ids": [
+        "topic_arquitetura_aplicacao",
+        "topic_avaliacao_ia",
+        "topic_memoria_estado",
+        "topic_prompts_interface"
+      ],
+      "why_authoritative": "Livro de referência da área (2025)."
+    }
+  ]
+}

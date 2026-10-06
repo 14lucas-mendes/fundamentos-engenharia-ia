@@ -1,0 +1,29 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
+  "topic": "Fundamentos da Engenharia de IA",
+  "goal": "Aplicar em projetos reais: enxergar a arquitetura por trás de aplicações com IA, escolher o formato certo de solução (assistente, workflow, agente, IDE, CLI, super app, modelo local) e avaliar comportamento, segurança e falhas, construindo base para avançar na formação.",
+  "deadline": "sem prazo fixo",
+  "weekly_hours": 3,
+  "preferred_times": [
+    "fins de semana"
+  ],
+  "initial_level": "usa agentes, CLIs e IDEs com IA regularmente; novo em arquitetura e fundamentos de engenharia de IA",
+  "language": "pt-BR com termos técnicos em inglês",
+  "accessibility": {
+    "necessidades": "nenhuma"
+  },
+  "source_policy": {
+    "tipos_preferidos": [
+      "documentação oficial",
+      "vídeos e aulas",
+      "artigos e newsletters",
+      "prática em código"
+    ]
+  },
+  "spacing_policy": {
+    "mode": "fixed",
+    "target_horizon_days": null
+  },
+  "external_consents": {}
+}

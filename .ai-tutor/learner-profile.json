@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
+  "revision": 2,
+  "updated_at": "2026-10-03T18:14:24Z",
+  "declared_preferences": [
+    {
+      "preference_id": "preference_f95d2767-4f7f-4b64-95eb-1d62d01d6343",
+      "dimension": "horario_estudo",
+      "value": [
+        "fins de semana"
+      ],
+      "source": "learner",
+      "recorded_at": "2026-09-22T22:31:18.335011Z",
+      "status": "active",
+      "supersedes_id": null
+    },
+    {
+      "preference_id": "preference_065e4d5b-1284-4593-a3ca-a93775aea2bf",
+      "dimension": "idioma_material",
+      "value": "pt-BR com termos técnicos em inglês",
+      "source": "learner",
+      "recorded_at": "2026-09-22T22:31:18.335011Z",
+      "status": "active",
+      "supersedes_id": null
+    },
+    {
+      "preference_id": "preference_311903c1-b021-4e69-94d1-369a08c94fee",
+      "dimension": "fontes_preferidas",
+      "value": [
+        "documentação oficial",
+        "vídeos e aulas",
+        "artigos e newsletters",
+        "prática em código"
+      ],
+      "source": "learner",
+      "recorded_at": "2026-09-22T22:31:18.335011Z",
+      "status": "active",
+      "supersedes_id": null
+    },
+    {
+      "preference_id": "preference_36ccbc49-8637-4781-87c8-3098a004ed11",
+      "dimension": "ritmo_semanal",
+      "value": "2-4 horas por semana",
+      "source": "learner",
+      "recorded_at": "2026-09-22T22:31:18.335011Z",
+      "status": "active",
+      "supersedes_id": null
+    },
+    {
+      "preference_id": "preference_d5295066-736d-4073-9625-6321413f6999",
+      "dimension": "nivel_python",
+      "value": "iniciante; estudando Python em paralelo na formação python_automações-tutor (foco em IA, engenharia de IA e automações)",
+      "source": "learner",
+      "recorded_at": "2026-10-03T18:14:24Z",
+      "status": "active",
+      "supersedes_id": null
+    }
+  ],
+  "observations": [],
+  "inferences": [],
+  "summary": {
+    "autonomy": "unknown",
+    "help_dependency": "unknown",
+    "confidence_pattern": "unknown"
+  }
+}
