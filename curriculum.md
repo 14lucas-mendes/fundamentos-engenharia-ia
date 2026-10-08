@@ -3,6 +3,7 @@
 <!-- Itens são adicionados pelo workflow de currículo com IDs estáveis. -->
 
 **Versão:** 1 · **Criado em:** 2026-09-30 · **Base:** diagnóstico `diagnostic_entrada_001` + fontes em `.ai-tutor/sources.json`
+**Nota (2026-10-07):** o rótulo `diagnóstico:` em cada módulo é a estimativa de ponto de partida (parcial, provável domínio ou lacuna), não o domínio. O domínio vem só das evidências de aula.
 **Ritmo:** ~3 h/semana (fins de semana) · **Estimativa:** ~22–26 semanas (≈ 6 meses)
 
 ## Princípio organizador
@@ -45,7 +46,7 @@ Regras:
 
 ## Fase 1 — O sistema por baixo do chat (semanas 1–7)
 
-### [ ] M01 · Modelos, tokens, contexto e reasoning — `topic_modelos_tokens_contexto` (diagnóstico: 20)
+### [ ] M01 · Modelos, tokens, contexto e reasoning — `topic_modelos_tokens_contexto` (diagnóstico: parcial)
 - **Capacidade observável:** explicar por que um assistente "esquece" numa conversa longa usando: chamada *stateless*, histórico reenviado,
   janela de contexto finita, *context rot*, compactação.
 - **Prática:** script que conversa com a API montando o histórico manualmente; medir tokens por turno; reproduzir o "esquecimento".
@@ -53,14 +54,14 @@ Regras:
 - **Evidências exigidas:** feynman · application · application+transfer.
 - **Fontes:** `source_anthropic_context_eng`, `source_huyen_ai_eng`.
 
-### [ ] M02 · Arquitetura de aplicações com IA — `topic_arquitetura_aplicacao` (diagnóstico: 20 · ponto fraco aberto)
+### [ ] M02 · Arquitetura de aplicações com IA — `topic_arquitetura_aplicacao` (diagnóstico: parcial · ponto fraco ativo)
 - **Capacidade observável:** desenhar o caminho navegador → backend → provedor → resposta; dizer onde a chave mora e por quê;
   classificar cada responsabilidade como *do modelo* ou *do código*.
 - **Prática / projeto P1:** mini backend "Resumir documento" (chave só no servidor, em variável de ambiente).
 - **Evidências exigidas:** feynman · application (P1) · application+transfer.
 - **Fontes:** `source_claude_tool_use`, `source_huyen_ai_eng`.
 
-### [ ] M03 · Prompts como interface de engenharia — `topic_prompts_interface` (diagnóstico: 20)
+### [ ] M03 · Prompts como interface de engenharia — `topic_prompts_interface` (diagnóstico: parcial)
 - **Capacidade observável:** escrever um prompt como **contrato de saída** consumido por código: formato fixo/JSON Schema, valores
   permitidos, caso "nenhuma das categorias", validação e fallback no código.
 - **Prática / projeto P2:** classificador de tickets (`cobranca|bug|duvida|cancelamento|outro`) com structured output + validação.
@@ -70,14 +71,14 @@ Regras:
 
 ## Fase 2 — O sistema ganha capacidades (semanas 8–14)
 
-### [ ] M04 · Tools e function calling — `topic_tools_function_calling` (diagnóstico: 20)
+### [ ] M04 · Tools e function calling — `topic_tools_function_calling` (diagnóstico: parcial)
 - **Capacidade observável:** explicar e implementar o ciclo `tool_use → sua aplicação executa → tool_result`; distinguir client tools
   e server tools; projetar uma tool boa para agentes.
 - **Prática:** `from-scratch` Fase 11 (function calling) + Fase 14 aula 01 (agent loop) trocando `ToyLLM` pela API real; tool de clima.
 - **Evidências exigidas:** feynman · application · application+transfer.
 - **Fontes:** `source_claude_tool_use`, `source_anthropic_tools`.
 
-### [ ] M05 · Memória, contexto e estado (inclui recuperação/RAG) — `topic_memoria_estado` (diagnóstico: 0)
+### [ ] M05 · Memória, contexto e estado (inclui recuperação/RAG) — `topic_memoria_estado` (diagnóstico: lacuna)
 - **Capacidade observável:** implementar memória entre sessões (armazenamento externo → injetado no contexto), comparar histórico
   completo, resumo/compactação, memória como tool e recuperação (RAG) — e dizer quando usar cada um.
 - **Prática / projeto P3:** chatbot da loja que lembra nome e reclamação da semana anterior. (`from-scratch` Fase 14 — memória.)
@@ -85,7 +86,7 @@ Regras:
 - **Evidências exigidas:** feynman · application (P3) · application+transfer.
 - **Fontes:** `source_anthropic_context_eng`, `source_claude_memory`, `source_huyen_ai_eng`.
 
-### [ ] M06 · MCP, skills, plugins e integrações — `topic_mcp_integracoes` (diagnóstico: 40)
+### [ ] M06 · MCP, skills, plugins e integrações — `topic_mcp_integracoes` (diagnóstico: provável domínio)
 - **Capacidade observável:** explicar host / client / server e primitivas (tools, resources, prompts); diferenciar MCP de skill
   (progressive disclosure) e de plugin; construir e conectar um servidor MCP simples.
 - **Prática:** servidor MCP mínimo (ex.: consulta a tickets) usado por um host como Claude Code. (`from-scratch` Fase 13.)
@@ -94,21 +95,21 @@ Regras:
 
 ## Fase 3 — Escolhendo o formato da solução (semanas 15–20)
 
-### [ ] M07 · Assistentes, automações e workflows — `topic_assistentes_workflows` (diagnóstico: 20)
+### [ ] M07 · Assistentes, automações e workflows — `topic_assistentes_workflows` (diagnóstico: parcial)
 - **Capacidade observável:** escolher entre workflow e agente pelo critério *o caminho é conhecido de antemão?*; aplicar padrões
   (prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer); posicionar aprovação humana.
 - **Prática:** workflow das notas fiscais com dados simulados.
 - **Evidências exigidas:** feynman · application · application+transfer.
 - **Fontes:** `source_anthropic_effective_agents`, `source_openai_agents_guide`.
 
-### [ ] M08 · Agentes e subagentes — `topic_agentes_subagentes` (diagnóstico: 40)
+### [ ] M08 · Agentes e subagentes — `topic_agentes_subagentes` (diagnóstico: provável domínio)
 - **Capacidade observável:** implementar um agent loop com condição de parada; decidir quando dividir em subagentes (contexto isolado
   × custo ~15× tokens × coordenação).
 - **Prática:** `from-scratch` Fase 14 aulas 01–12 + aulas selecionadas da Fase 16 (multi-agent).
 - **Evidências exigidas:** feynman · application · application+transfer.
 - **Fontes:** `source_anthropic_multiagent`, `source_anthropic_effective_agents`, `source_claude_code_sandboxing`.
 
-### [ ] M09 · IDEs, CLIs, super apps, assistentes pessoais e modelos locais — `topic_formatos_ferramentas` (diagnóstico: 40)
+### [ ] M09 · IDEs, CLIs, super apps, assistentes pessoais e modelos locais — `topic_formatos_ferramentas` (diagnóstico: provável domínio)
 - **Capacidade observável:** recomendar o formato a partir de requisitos (privacidade, custo, qualidade, contexto, manutenção) e
   explicitar o trade-off aceito.
 - **Prática:** rodar um modelo local (Ollama) e comparar com um modelo na nuvem no mesmo resumo (qualidade, tempo, limite de contexto).
@@ -117,7 +118,7 @@ Regras:
 
 ## Fase 4 — Confiabilidade (semanas 21–26)
 
-### [ ] M10 · Segurança: harness, permissões, credenciais e prompt injection — `topic_seguranca_harness` (diagnóstico: 20)
+### [ ] M10 · Segurança: harness, permissões, credenciais e prompt injection — `topic_seguranca_harness` (diagnóstico: parcial)
 - **Capacidade observável:** identificar a *lethal trifecta*; propor defesas **no sistema** (menor privilégio, confirmação humana para
   efeitos colaterais, allowlist, sandbox, tratar conteúdo externo como dado) em vez de só no prompt; proteger credenciais.
 - **Prática:** agente de e-mail simulado — atacar com injeção indireta e bloquear sem depender do modelo obedecer.
@@ -125,7 +126,7 @@ Regras:
 - **Evidências exigidas:** feynman · application · application+transfer.
 - **Fontes:** `source_owasp_llm` (LLM01, LLM05, LLM06), `source_willison_trifecta`, `source_claude_code_sandboxing`, `source_openai_agents_guide`.
 
-### [ ] M11 · Avaliação de soluções com IA — `topic_avaliacao_ia` (diagnóstico: 0)
+### [ ] M11 · Avaliação de soluções com IA — `topic_avaliacao_ia` (diagnóstico: lacuna)
 - **Capacidade observável:** montar conjunto de casos com resposta esperada, fazer error analysis, comparar versões no mesmo conjunto,
   detectar regressão e lidar com não determinismo.
 - **Prática:** eval do classificador P2 (≥ 30 casos) comparando duas versões do prompt.

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
-  "revision": 24,
-  "updated_at": "2026-10-03T18:20:23Z",
+  "revision": 25,
+  "updated_at": "2026-10-08T02:10:11Z",
   "topics": [
     {
       "topic_id": "topic_modelos_tokens_contexto",
@@ -12,34 +12,44 @@
       "status": "in_progress",
       "last_practice": "2026-10-03T18:09:37Z",
       "evidence_ids": [
-        "evidence_21c721e6-8fe7-4dfc-a4b4-9c36228f3576",
         "evidence_2a59ab7c-8128-45a5-814e-0e4e148fc926",
         "evidence_a493c7ca-06c2-4858-90fc-1cde139fe2ea",
         "evidence_e813682a-d4cf-4633-b712-319800c122a1",
         "evidence_8c5f8420-98a9-433c-b307-80093ac3aab1"
-      ]
+      ],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_prompts_interface",
       "name": "Prompts como interface de engenharia",
-      "mastery": 20,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:26:47Z",
-      "evidence_ids": [
-        "evidence_395bc1af-dd2a-4ebb-88d1-0b9196a18e20"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_arquitetura_aplicacao",
       "name": "Arquitetura de aplicações com IA: da requisição ao comportamento",
-      "mastery": 20,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:29:13Z",
-      "evidence_ids": [
-        "evidence_f141966b-d798-4a30-9f62-e2a02a5e6523"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_memoria_estado",
@@ -48,73 +58,96 @@
       "retention": "unknown",
       "status": "not_started",
       "last_practice": null,
-      "evidence_ids": []
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "weak",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_tools_function_calling",
       "name": "Tools e function calling",
-      "mastery": 20,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:32:58Z",
-      "evidence_ids": [
-        "evidence_23320156-607a-4fa6-9175-03a9de3a5212"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_mcp_integracoes",
       "name": "MCP, skills, plugins e integrações",
-      "mastery": 40,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:34:58Z",
-      "evidence_ids": [
-        "evidence_3110bc5d-57a2-44ca-97a4-25712b99ffbf"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "likely_known",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_assistentes_workflows",
       "name": "Assistentes, automações e workflows",
-      "mastery": 20,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:37:06Z",
-      "evidence_ids": [
-        "evidence_f46bdc28-2004-4450-9a2e-850d98fabdf4"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_agentes_subagentes",
       "name": "Agentes e subagentes",
-      "mastery": 40,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:39:12Z",
-      "evidence_ids": [
-        "evidence_a85c8f46-ac57-4044-84ea-6d26e28af04f"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "likely_known",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_formatos_ferramentas",
       "name": "IDEs, CLIs, super apps, assistentes pessoais e modelos locais",
-      "mastery": 40,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:41:34Z",
-      "evidence_ids": [
-        "evidence_3a5d8d2d-16be-4a1b-a936-da8c2bab4095"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "likely_known",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_seguranca_harness",
       "name": "Segurança: harness, permissões, credenciais e prompt injection",
-      "mastery": 20,
+      "mastery": 0,
       "retention": "unknown",
-      "status": "in_progress",
-      "last_practice": "2026-10-01T01:43:47Z",
-      "evidence_ids": [
-        "evidence_4a24846b-6faa-41ff-ae70-99c5def008a5"
-      ]
+      "status": "not_started",
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "partial",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     },
     {
       "topic_id": "topic_avaliacao_ia",
@@ -122,173 +155,16 @@
       "mastery": 0,
       "retention": "unknown",
       "status": "not_started",
-      "last_practice": "2026-10-01T01:45:28Z",
-      "evidence_ids": [
-        "evidence_f33ff488-e22e-4b4c-87a3-cbff4cc5aa66"
-      ]
+      "last_practice": null,
+      "evidence_ids": [],
+      "diagnostic": {
+        "estimate": "weak",
+        "confidence": "low",
+        "diagnostic_id": "diagnostic_entrada_001"
+      }
     }
   ],
   "evidences": [
-    {
-      "evidence_id": "evidence_21c721e6-8fe7-4dfc-a4b4-9c36228f3576",
-      "topic_id": "topic_modelos_tokens_contexto",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: assistente de código esquecendo instruções em conversa longa",
-      "recorded_at": "2026-10-01T01:23:29Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q1"
-      },
-      "result": "partial",
-      "error": "precision: descreveu o mecanismo como o modelo 'não revisitar' o início; não citou janela de contexto finita, degradação de atenção em contextos longos nem perda por compactação/truncamento. Remediação (compactar, nova sessão com resumo) correta."
-    },
-    {
-      "evidence_id": "evidence_395bc1af-dd2a-4ebb-88d1-0b9196a18e20",
-      "topic_id": "topic_prompts_interface",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: prompt de classificação de tickets consumido por código",
-      "recorded_at": "2026-10-01T01:26:47Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q2"
-      },
-      "result": "partial",
-      "error": "conceptual: atribuiu o encaminhamento ao modelo (no cenário, o código encaminha); não definiu formato de saída parseável (só o rótulo/JSON/structured output), caso ambíguo/fora das categorias nem validação no código; não respondeu 'o que pode dar errado'. Acertou: restringir a categorias fixas e delimitar contexto."
-    },
-    {
-      "evidence_id": "evidence_f141966b-d798-4a30-9f62-e2a02a5e6523",
-      "topic_id": "topic_arquitetura_aplicacao",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: caminho da requisição de um botão 'Resumir documento' até o LLM",
-      "recorded_at": "2026-10-01T01:29:13Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q3"
-      },
-      "result": "partial",
-      "error": "conceptual: não descreveu frontend → backend → provedor → resposta; não situou a chave no servidor (vs. navegador); declarou não saber o processamento do LLM. Acertou: chave em variável de ambiente, fora do repositório."
-    },
-    {
-      "evidence_id": "evidence_23320156-607a-4fa6-9175-03a9de3a5212",
-      "topic_id": "topic_tools_function_calling",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: assistente responde previsão do tempo atual",
-      "recorded_at": "2026-10-01T01:32:58Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q5"
-      },
-      "result": "partial",
-      "error": "conceptual: afirma que o modelo se conecta e consulta o serviço; na prática o modelo só emite um pedido de tool call e a aplicação/harness executa e devolve o resultado. Acertou: tools trazem dados que não estão no treino."
-    },
-    {
-      "evidence_id": "evidence_3110bc5d-57a2-44ca-97a4-25712b99ffbf",
-      "topic_id": "topic_mcp_integracoes",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: integrar Jira a Claude Code, Cursor e chatbot interno",
-      "recorded_at": "2026-10-01T01:34:58Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q6"
-      },
-      "result": "correct",
-      "error": null
-    },
-    {
-      "evidence_id": "evidence_f46bdc28-2004-4450-9a2e-850d98fabdf4",
-      "topic_id": "topic_assistentes_workflows",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: workflow vs agente para (a) notas fiscais diárias e (b) depurar testes falhando",
-      "recorded_at": "2026-10-01T01:37:06Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q7"
-      },
-      "result": "partial",
-      "error": "application: escolheu workflow sem diferenciar as tarefas; não considerou que (b) tem caminho desconhecido a priori. Acertou: (a) é workflow; risco de erro composto/persistente do agente e valor de aprovação humana."
-    },
-    {
-      "evidence_id": "evidence_a85c8f46-ac57-4044-84ea-6d26e28af04f",
-      "topic_id": "topic_agentes_subagentes",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: revisão de repositório com 1 agente vs 3 subagentes",
-      "recorded_at": "2026-10-01T01:39:12Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q8"
-      },
-      "result": "correct",
-      "error": "precision (menor): disse que subagentes 'compartilham do mesmo contexto' — compartilham o projeto/arquivos, mas cada um tem janela de contexto própria (o que ele mesmo descreve em seguida)."
-    },
-    {
-      "evidence_id": "evidence_3a5d8d2d-16be-4a1b-a936-da8c2bab4095",
-      "topic_id": "topic_formatos_ferramentas",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: escritório de advocacia com restrição de não enviar documentos a terceiros",
-      "recorded_at": "2026-10-01T01:41:34Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q9"
-      },
-      "result": "correct",
-      "error": "precision (menor): trade-off só tocado ('depende do hardware'); não explicitou qualidade inferior de modelos menores, limite de contexto para contratos longos, custo/manutenção de infra própria."
-    },
-    {
-      "evidence_id": "evidence_4a24846b-6faa-41ff-ae70-99c5def008a5",
-      "topic_id": "topic_seguranca_harness",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: prompt injection via e-mail em agente com acesso à caixa de entrada",
-      "recorded_at": "2026-10-01T01:43:47Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q10"
-      },
-      "result": "partial",
-      "error": "conceptual: defesa proposta só no prompt/rules/skill (depende do modelo obedecer); faltam controles no harness/código: menor privilégio (só leitura para resumir), confirmação humana para ações com efeito (encaminhar), allowlist de destinatários, tratar conteúdo externo como dado. Acertou: nomeou prompt injection e o risco de exfiltração."
-    },
-    {
-      "evidence_id": "evidence_f33ff488-e22e-4b4c-87a3-cbff4cc5aa66",
-      "topic_id": "topic_avaliacao_ia",
-      "session_id": "session_0c9c87a6-2beb-42e0-ba3b-0fce29ea95fb",
-      "kind": "diagnostic",
-      "autonomous": true,
-      "transfer": false,
-      "context": "diagnóstico: validar nova versão do prompt do classificador antes de produção",
-      "recorded_at": "2026-10-01T01:45:28Z",
-      "reference": {
-        "type": "conversation",
-        "id": "diagnostic_entrada_001/q11"
-      },
-      "result": "incorrect",
-      "error": "conceptual: respondeu com isolamento de ambiente (segurança), não com avaliação: conjunto de casos com rótulo esperado, comparação antiga vs nova no mesmo conjunto, métrica, casos de regressão, repetição por não determinismo."
-    },
     {
       "evidence_id": "evidence_2a59ab7c-8128-45a5-814e-0e4e148fc926",
       "topic_id": "topic_modelos_tokens_contexto",
@@ -300,8 +176,9 @@
       "context": "M01: quem coloca o histórico na requisição",
       "recorded_at": "2026-10-03T17:30:23Z",
       "reference": {
-        "type": "conversation",
-        "id": "lesson_m01/retrieval_1"
+        "type": "session",
+        "id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+        "location": "lesson_m01/retrieval_1"
       },
       "result": "partial",
       "error": "precision: após pergunta direcional, atribuiu ao harness (correto), mas disse que 'as tools fazem isso' — o histórico é montado pelo código da aplicação e enviado no corpo da requisição; tools são ações que o modelo pede."
@@ -317,8 +194,9 @@
       "context": "M01: consequências do reenvio do histórico (custo e janela) na mensagem 200",
       "recorded_at": "2026-10-03T17:40:26Z",
       "reference": {
-        "type": "conversation",
-        "id": "lesson_m01/application_1"
+        "type": "session",
+        "id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+        "location": "lesson_m01/application_1"
       },
       "result": "partial",
       "error": "precision: chamou o crescimento do custo de 'exponencial' — por chamada é linear, acumulado é quadrático. Janela enchendo e necessidade de cortar/resumir: correto (não disse quem faz o corte)."
@@ -334,8 +212,9 @@
       "context": "M01: instrução ignorada mesmo cabendo na janela (context rot)",
       "recorded_at": "2026-10-03T17:49:53Z",
       "reference": {
-        "type": "conversation",
-        "id": "lesson_m01/application_2"
+        "type": "session",
+        "id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+        "location": "lesson_m01/application_2"
       },
       "result": "partial",
       "error": "precision: direção certa (mais tokens → pior recuperação); analogia de memória de longo prazo/decaimento temporal é imprecisa — tudo é lido de uma vez a cada chamada; mecanismo é diluição da atenção, e o meio do contexto costuma ser o pior (não necessariamente o início)."
@@ -351,8 +230,9 @@
       "context": "M01: interpretar completion_tokens=176 para resposta de uma frase (reasoning tokens)",
       "recorded_at": "2026-10-03T18:09:37Z",
       "reference": {
-        "type": "conversation",
-        "id": "lesson_m01/application_3"
+        "type": "session",
+        "id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+        "location": "lesson_m01/application_3"
       },
       "result": "correct",
       "error": "precision (menor): disse 'processados'; são tokens de raciocínio gerados (ocultos) e cobrados como saída. Dica parcial dada (nome 'reasoning')."
@@ -381,18 +261,7 @@
         "topic_seguranca_harness",
         "topic_avaliacao_ia"
       ],
-      "evidence_ids": [
-        "evidence_21c721e6-8fe7-4dfc-a4b4-9c36228f3576",
-        "evidence_395bc1af-dd2a-4ebb-88d1-0b9196a18e20",
-        "evidence_f141966b-d798-4a30-9f62-e2a02a5e6523",
-        "evidence_23320156-607a-4fa6-9175-03a9de3a5212",
-        "evidence_3110bc5d-57a2-44ca-97a4-25712b99ffbf",
-        "evidence_f46bdc28-2004-4450-9a2e-850d98fabdf4",
-        "evidence_a85c8f46-ac57-4044-84ea-6d26e28af04f",
-        "evidence_3a5d8d2d-16be-4a1b-a936-da8c2bab4095",
-        "evidence_4a24846b-6faa-41ff-ae70-99c5def008a5",
-        "evidence_f33ff488-e22e-4b4c-87a3-cbff4cc5aa66"
-      ],
+      "evidence_ids": [],
       "lesson_ids": [],
       "checkpoint": "Diagnóstico de entrada concluído (11/11).",
       "next_action": "Montar currículo",
@@ -400,7 +269,9 @@
       "difficulty": "adequada",
       "files_changed": [
         ".ai-tutor/state.json"
-      ]
+      ],
+      "diagnostic_id": "diagnostic_entrada_001",
+      "migration_note": "2026-10-07: as respostas deste diagnóstico deixaram de ser evidências e estão em diagnostics[diagnostic_entrada_001].observations."
     },
     {
       "session_id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
@@ -470,15 +341,12 @@
       "topic_id": "topic_arquitetura_aplicacao",
       "category": "conceptual",
       "cause": "Fronteira modelo vs. sistema: atribui ao modelo ações que o código/harness executa ou garante (encaminhar ticket, chamar a API de clima, impedir ação maliciosa).",
-      "evidence_ids": [
-        "evidence_395bc1af-dd2a-4ebb-88d1-0b9196a18e20",
-        "evidence_23320156-607a-4fa6-9175-03a9de3a5212",
-        "evidence_4a24846b-6faa-41ff-ae70-99c5def008a5"
-      ],
       "entered_at": "2026-10-01T01:45:28Z",
       "exit_condition": "Duas evidências autônomas corretas em sessões diferentes separando responsabilidades do modelo e do sistema; ao menos uma de transferência.",
-      "status": "open",
-      "weak_point_id": "weak_01ebbe5b-9c4a-40fa-89a1-4f0b4f7ee885"
+      "status": "active",
+      "weak_point_id": "weak_01ebbe5b-9c4a-40fa-89a1-4f0b4f7ee885",
+      "supporting_evidence_ids": [],
+      "note": "Originado no diagnóstico de entrada, observado três vezes: diagnostic_observation_entrada_001_q10, diagnostic_observation_entrada_001_q2, diagnostic_observation_entrada_001_q5. Observações diagnósticas não são evidência; aguarda evidência de aula."
     }
   ],
   "projects": [
@@ -501,7 +369,8 @@
           "author": "tutor",
           "evidence_eligible": false
         }
-      ]
+      ],
+      "name": "M01 · Modelos, tokens, contexto e reasoning"
     }
   ],
   "next_focus": {
@@ -531,73 +400,236 @@
       "completed_at": "2026-10-01T01:45:28Z",
       "observations": [
         {
+          "observation_id": "diagnostic_observation_entrada_001_q1",
           "topic_id": "topic_modelos_tokens_contexto",
-          "evidence_id": "evidence_21c721e6-8fe7-4dfc-a4b4-9c36228f3576",
-          "recorded_at": "2026-10-01T01:23:29Z",
-          "note": "Identifica contexto como causa e propõe compactação/nova sessão. Concepção imprecisa do mecanismo (acha que o modelo não relê o início)."
+          "prompt": "assistente de código esquecendo instruções em conversa longa",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Identifica contexto como causa e propõe compactação/nova sessão. Concepção imprecisa do mecanismo (acha que o modelo não relê o início).",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": false,
+          "reason": "Resultado partial. precision: descreveu o mecanismo como o modelo 'não revisitar' o início; não citou janela de contexto finita, degradação de atenção em contextos longos nem perda por compactação/truncamento. Remediação (compactar, nova sessão com resumo) correta. | Identifica contexto como causa e propõe compactação/nova sessão. Concepção imprecisa do mecanismo (acha que o modelo não relê o início).",
+          "recorded_at": "2026-10-01T01:23:29Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q2",
           "topic_id": "topic_prompts_interface",
-          "evidence_id": "evidence_395bc1af-dd2a-4ebb-88d1-0b9196a18e20",
-          "recorded_at": "2026-10-01T01:26:47Z",
-          "note": "Pensa em restringir rótulos, mas trata o prompt como instrução de tarefa, não como contrato de saída para código. Confunde papel do modelo vs. código (quem encaminha) — sinal para arquitetura."
+          "prompt": "prompt de classificação de tickets consumido por código",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Pensa em restringir rótulos, mas trata o prompt como instrução de tarefa, não como contrato de saída para código. Confunde papel do modelo vs. código (quem encaminha) — sinal para arquitetura.",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": false,
+          "reason": "Resultado partial. conceptual: atribuiu o encaminhamento ao modelo (no cenário, o código encaminha); não definiu formato de saída parseável (só o rótulo/JSON/structured output), caso ambíguo/fora das categorias nem validação no código; não respondeu 'o que pode dar errado'. Acertou: restringir a categorias fixas e delimitar contexto. | Pensa em restringir rótulos, mas trata o prompt como instrução de tarefa, não como contrato de saída para código. Confunde papel do modelo vs. código (quem encaminha) — sinal para arquitetura.",
+          "recorded_at": "2026-10-01T01:26:47Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q3",
           "topic_id": "topic_arquitetura_aplicacao",
-          "evidence_id": "evidence_f141966b-d798-4a30-9f62-e2a02a5e6523",
-          "recorded_at": "2026-10-01T01:29:13Z",
-          "note": "Boa higiene de segredos (env var, não commitar). Sem modelo mental de camadas (front/back/provedor); reconhece honestamente a lacuna. Provável ponto de partida do currículo junto com Q2."
+          "prompt": "caminho da requisição de um botão 'Resumir documento' até o LLM",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Boa higiene de segredos (env var, não commitar). Sem modelo mental de camadas (front/back/provedor); reconhece honestamente a lacuna. Provável ponto de partida do currículo junto com Q2.",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": true,
+          "reason": "Resultado partial. conceptual: não descreveu frontend → backend → provedor → resposta; não situou a chave no servidor (vs. navegador); declarou não saber o processamento do LLM. Acertou: chave em variável de ambiente, fora do repositório. | Boa higiene de segredos (env var, não commitar). Sem modelo mental de camadas (front/back/provedor); reconhece honestamente a lacuna. Provável ponto de partida do currículo junto com Q2.",
+          "recorded_at": "2026-10-01T01:29:13Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q4",
           "topic_id": "topic_memoria_estado",
-          "evidence_id": null,
-          "recorded_at": "2026-10-01T01:32:02Z",
-          "note": "Q4 (memória entre sessões em chatbot de loja): declarou não ter ideia. Sem evidência; mastery permanece 0."
+          "prompt": "memória entre sessões em chatbot de loja",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Declarou não ter ideia.",
+          "estimate": "weak",
+          "confidence": "low",
+          "direction": "probe_down",
+          "prerequisite_gap": false,
+          "reason": "Q4 (memória entre sessões em chatbot de loja): declarou não ter ideia. Sem evidência; mastery permanece 0.",
+          "recorded_at": "2026-10-01T01:32:02Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q5",
           "topic_id": "topic_tools_function_calling",
-          "evidence_id": "evidence_23320156-607a-4fa6-9175-03a9de3a5212",
-          "recorded_at": "2026-10-01T01:32:58Z",
-          "note": "Entende o propósito das tools, mas atribui a execução ao modelo. Mesmo padrão de Q2/Q3: fronteira modelo vs. código/aplicação pouco clara — candidato a weak point conceitual se repetir."
+          "prompt": "assistente responde previsão do tempo atual",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Entende o propósito das tools, mas atribui a execução ao modelo. Mesmo padrão de Q2/Q3: fronteira modelo vs. código/aplicação pouco clara — candidato a weak point conceitual se repetir.",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": false,
+          "reason": "Resultado partial. conceptual: afirma que o modelo se conecta e consulta o serviço; na prática o modelo só emite um pedido de tool call e a aplicação/harness executa e devolve o resultado. Acertou: tools trazem dados que não estão no treino. | Entende o propósito das tools, mas atribui a execução ao modelo. Mesmo padrão de Q2/Q3: fronteira modelo vs. código/aplicação pouco clara — candidato a weak point conceitual se repetir.",
+          "recorded_at": "2026-10-01T01:32:58Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q6",
           "topic_id": "topic_mcp_integracoes",
-          "evidence_id": "evidence_3110bc5d-57a2-44ca-97a4-25712b99ffbf",
-          "recorded_at": "2026-10-01T01:34:58Z",
-          "note": "Correta e autônoma: MCP como protocolo padrão, integração escrita uma vez e reutilizada por qualquer host compatível. Melhoria opcional: requer cliente compatível; a 'ponte' liga a aplicação host ao servidor (o modelo continua só pedindo). Mastery 40: acima da barra com ajuda, sem feynman+application para 60."
+          "prompt": "integrar Jira a Claude Code, Cursor e chatbot interno",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Correta e autônoma: MCP como protocolo padrão, integração escrita uma vez e reutilizada por qualquer host compatível. Melhoria opcional: requer cliente compatível; a 'ponte' liga a aplicação host ao servidor (o modelo continua só pedindo). Mastery 40: acima da barra com ajuda, sem feynman+application para 60.",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "direction": "probe_up",
+          "prerequisite_gap": false,
+          "reason": "Resultado correct. Correta e autônoma: MCP como protocolo padrão, integração escrita uma vez e reutilizada por qualquer host compatível. Melhoria opcional: requer cliente compatível; a 'ponte' liga a aplicação host ao servidor (o modelo continua só pedindo). Mastery 40: acima da barra com ajuda, sem feynman+application para 60.",
+          "recorded_at": "2026-10-01T01:34:58Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q7",
           "topic_id": "topic_assistentes_workflows",
-          "evidence_id": "evidence_f46bdc28-2004-4450-9a2e-850d98fabdf4",
-          "recorded_at": "2026-10-01T01:37:06Z",
-          "note": "Boa intuição de risco (erros que se acumulam sem autodetecção, human-in-the-loop). Falta o critério de escolha: previsibilidade do caminho da tarefa."
+          "prompt": "workflow vs agente para (a) notas fiscais diárias e (b) depurar testes falhando",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Boa intuição de risco (erros que se acumulam sem autodetecção, human-in-the-loop). Falta o critério de escolha: previsibilidade do caminho da tarefa.",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": false,
+          "reason": "Resultado partial. application: escolheu workflow sem diferenciar as tarefas; não considerou que (b) tem caminho desconhecido a priori. Acertou: (a) é workflow; risco de erro composto/persistente do agente e valor de aprovação humana. | Boa intuição de risco (erros que se acumulam sem autodetecção, human-in-the-loop). Falta o critério de escolha: previsibilidade do caminho da tarefa.",
+          "recorded_at": "2026-10-01T01:37:06Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q8",
           "topic_id": "topic_agentes_subagentes",
-          "evidence_id": "evidence_a85c8f46-ac57-4044-84ea-6d26e28af04f",
-          "recorded_at": "2026-10-01T01:39:12Z",
-          "note": "Correta e autônoma: isolamento de contexto como vantagem, custo de tokens como desvantagem. Conectou com Q1 (contexto). Melhorias opcionais: coordenação/merge de resultados, perda de informação entre subagentes."
+          "prompt": "revisão de repositório com 1 agente vs 3 subagentes",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Correta e autônoma: isolamento de contexto como vantagem, custo de tokens como desvantagem. Conectou com Q1 (contexto). Melhorias opcionais: coordenação/merge de resultados, perda de informação entre subagentes.",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "direction": "probe_up",
+          "prerequisite_gap": false,
+          "reason": "Resultado correct. precision (menor): disse que subagentes 'compartilham do mesmo contexto' — compartilham o projeto/arquivos, mas cada um tem janela de contexto própria (o que ele mesmo descreve em seguida). | Correta e autônoma: isolamento de contexto como vantagem, custo de tokens como desvantagem. Conectou com Q1 (contexto). Melhorias opcionais: coordenação/merge de resultados, perda de informação entre subagentes.",
+          "recorded_at": "2026-10-01T01:39:12Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q9",
           "topic_id": "topic_formatos_ferramentas",
-          "evidence_id": "evidence_3a5d8d2d-16be-4a1b-a936-da8c2bab4095",
-          "recorded_at": "2026-10-01T01:41:34Z",
-          "note": "Decisão correta e justificada pela restrição (dados não saem da máquina). Trade-off pouco desenvolvido — explorar qualidade/hardware/contexto na aula."
+          "prompt": "escritório de advocacia com restrição de não enviar documentos a terceiros",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Decisão correta e justificada pela restrição (dados não saem da máquina). Trade-off pouco desenvolvido — explorar qualidade/hardware/contexto na aula.",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "direction": "probe_up",
+          "prerequisite_gap": false,
+          "reason": "Resultado correct. precision (menor): trade-off só tocado ('depende do hardware'); não explicitou qualidade inferior de modelos menores, limite de contexto para contratos longos, custo/manutenção de infra própria. | Decisão correta e justificada pela restrição (dados não saem da máquina). Trade-off pouco desenvolvido — explorar qualidade/hardware/contexto na aula.",
+          "recorded_at": "2026-10-01T01:41:34Z"
         },
         {
+          "observation_id": "diagnostic_observation_entrada_001_q10",
           "topic_id": "topic_seguranca_harness",
-          "evidence_id": "evidence_4a24846b-6faa-41ff-ae70-99c5def008a5",
-          "recorded_at": "2026-10-01T01:43:47Z",
-          "note": "Reconhece o ataque, mas confia a defesa ao próprio modelo. Mesmo padrão de Q2/Q3/Q5: fronteira modelo vs. sistema (o que o código/harness garante vs. o que o modelo 'promete')."
+          "prompt": "prompt injection via e-mail em agente com acesso à caixa de entrada",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] Reconhece o ataque, mas confia a defesa ao próprio modelo. Mesmo padrão de Q2/Q3/Q5: fronteira modelo vs. sistema (o que o código/harness garante vs. o que o modelo 'promete').",
+          "estimate": "partial",
+          "confidence": "low",
+          "direction": "probe_across",
+          "prerequisite_gap": false,
+          "reason": "Resultado partial. conceptual: defesa proposta só no prompt/rules/skill (depende do modelo obedecer); faltam controles no harness/código: menor privilégio (só leitura para resumir), confirmação humana para ações com efeito (encaminhar), allowlist de destinatários, tratar conteúdo externo como dado. Acertou: nomeou prompt injection e o risco de exfiltração. | Reconhece o ataque, mas confia a defesa ao próprio modelo. Mesmo padrão de Q2/Q3/Q5: fronteira modelo vs. sistema (o que o código/harness garante vs. o que o modelo 'promete').",
+          "recorded_at": "2026-10-01T01:43:47Z"
+        },
+        {
+          "observation_id": "diagnostic_observation_entrada_001_q11",
+          "topic_id": "topic_avaliacao_ia",
+          "prompt": "validar nova versão do prompt do classificador antes de produção",
+          "response": "[Síntese do tutor; a resposta literal não foi registrada] conceptual: respondeu com isolamento de ambiente (segurança), não com avaliação: conjunto de casos com rótulo esperado, comparação antiga vs nova no mesmo conjunto, métrica, casos de regressão, repetição por não determinismo.",
+          "estimate": "weak",
+          "confidence": "low",
+          "direction": "probe_down",
+          "prerequisite_gap": false,
+          "reason": "Resultado incorrect. conceptual: respondeu com isolamento de ambiente (segurança), não com avaliação: conjunto de casos com rótulo esperado, comparação antiga vs nova no mesmo conjunto, métrica, casos de regressão, repetição por não determinismo.",
+          "recorded_at": "2026-10-01T01:45:28Z"
         }
       ],
       "summary": [
+        {
+          "topic_id": "topic_modelos_tokens_contexto",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q1"
+          ]
+        },
+        {
+          "topic_id": "topic_prompts_interface",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q2"
+          ]
+        },
+        {
+          "topic_id": "topic_arquitetura_aplicacao",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q3"
+          ]
+        },
+        {
+          "topic_id": "topic_memoria_estado",
+          "estimate": "weak",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q4"
+          ]
+        },
+        {
+          "topic_id": "topic_tools_function_calling",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q5"
+          ]
+        },
+        {
+          "topic_id": "topic_mcp_integracoes",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q6"
+          ]
+        },
+        {
+          "topic_id": "topic_assistentes_workflows",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q7"
+          ]
+        },
+        {
+          "topic_id": "topic_agentes_subagentes",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q8"
+          ]
+        },
+        {
+          "topic_id": "topic_formatos_ferramentas",
+          "estimate": "likely_known",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q9"
+          ]
+        },
+        {
+          "topic_id": "topic_seguranca_harness",
+          "estimate": "partial",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q10"
+          ]
+        },
+        {
+          "topic_id": "topic_avaliacao_ia",
+          "estimate": "weak",
+          "confidence": "low",
+          "observation_ids": [
+            "diagnostic_observation_entrada_001_q11"
+          ]
+        }
+      ],
+      "summary_notes": [
         "Mais forte: MCP/integrações (40), subagentes (40), modelos locais vs nuvem (40).",
         "Base parcial (20): contexto, prompts, arquitetura, tools, workflows, segurança.",
         "Sem base (0): memória entre sessões, avaliação/evals.",
         "Padrão transversal: fronteira modelo vs. sistema (weak point conceitual).",
         "Ordem sugerida: chamada stateless + camadas da aplicação → prompts como contrato → tools → memória → workflows/agentes → segurança no harness → avaliação."
-      ]
+      ],
+      "entry_topic_id": "topic_modelos_tokens_contexto"
     }
   ],
   "retrieval_attempts": []

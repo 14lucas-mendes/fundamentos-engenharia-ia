@@ -39,3 +39,22 @@
 - Evidências: evidence_2a59ab7c-8128-45a5-814e-0e4e148fc926, evidence_a493c7ca-06c2-4858-90fc-1cde139fe2ea, evidence_e813682a-d4cf-4633-b712-319800c122a1, evidence_8c5f8420-98a9-433c-b307-80093ac3aab1
 - Checkpoint: Pausa a pedido do aluno. conversa.py pronto (não rodado). Pendente: PREVISÃO (a) prompt_tokens turnos 1→3, (b) nome e 🚀 após /esquecer, (c) prompt_tokens turno 5 vs 3.
 - Próximo passo: Retomar pedindo a previsão; depois rodar, comparar, modificação de 1 linha (instrução no system → transferência), Feynman das 5 ideias.
+
+## Correção de estado — 2026-10-07 (não é sessão de estudo)
+
+- Motivo: o `validate_study` reprovava o estudo com 186 erros. Plano em `docs/plano-correcao-estado.md`.
+- Skill em uso: `14lucas-mendes/ai-tutor-skill`, commit `bd567cd`.
+- Script: `.ai-tutor/migrations/2026-10-07-correcao-estado.py` (idempotente; estado anterior no commit `ee788bc`). Resultado: `STUDY VALIDATION: PASS`.
+- Decisão sobre o domínio: o diagnóstico não é evidência. As 10 respostas de `diagnostic_entrada_001` saíram de `evidences` e viraram observações do diagnóstico. A de Avaliação (Q11), que faltava, foi reconstruída a partir da evidência.
+  - Os domínios 20 e 40 da seção "Domínio após diagnóstico" acima ficam como histórico. Hoje, todos os tópicos estão em 0, exceto Modelos, tokens, contexto e reasoning.
+  - Estimativa de ponto de partida (confiança baixa, uma sondagem por tópico):
+    - provável domínio: MCP, subagentes, formatos;
+    - parcial: contexto, prompts, arquitetura, tools, workflows, segurança;
+    - lacuna: memória, avaliação.
+  - Modelos, tokens, contexto e reasoning: fica em 20, com as 4 evidências da M01. Pela matriz, cabe 20 ou 40, e a reavaliação fica para quando a M01 fechar. O 60 exige Feynman e aplicação autônomos corretos.
+- Ponto fraco `weak_01ebbe5b-9c4a-40fa-89a1-4f0b4f7ee885`: continua ativo, sem evidências de apoio. A origem está nas observações q2, q5 e q10 do diagnóstico.
+- Outros ajustes:
+  - fontes com os nomes de campo do contrato. A OWASP tinha só o ano, que foi para `publication_year`;
+  - referências de evidência apontando para a sessão;
+  - nome do projeto M01.
+- Próximo passo: retomar `session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3`, na previsão do experimento `conversa.py`.
