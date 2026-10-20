@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
-  "revision": 25,
-  "updated_at": "2026-10-08T02:10:11Z",
+  "revision": 28,
+  "updated_at": "2026-10-08T21:31:28Z",
   "topics": [
     {
       "topic_id": "topic_modelos_tokens_contexto",
@@ -275,13 +275,15 @@
     },
     {
       "session_id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
-      "status": "interrupted",
+      "status": "completed",
       "transitions": [
         "in_progress",
-        "interrupted"
+        "interrupted",
+        "resumed",
+        "completed"
       ],
       "started_at": "2026-10-03T17:24:03Z",
-      "ended_at": null,
+      "ended_at": "2026-10-08T21:31:28Z",
       "objective": "M01: explicar e demonstrar por que o assistente 'esquece' (stateless, histórico reenviado, janela, context rot, compactação).",
       "topic_ids": [
         "topic_modelos_tokens_contexto"
@@ -295,25 +297,29 @@
       "lesson_ids": [
         "lesson_m01_modelos_tokens_contexto"
       ],
-      "checkpoint": "Pausa a pedido do aluno. conversa.py pronto (não rodado). Pendente: PREVISÃO (a) prompt_tokens turnos 1→3, (b) nome e 🚀 após /esquecer, (c) prompt_tokens turno 5 vs 3.",
-      "next_action": "Retomar pedindo a previsão; depois rodar, comparar, modificação de 1 linha (instrução no system → transferência), Feynman das 5 ideias.",
-      "resumable": true,
+      "checkpoint": "Encerrada a pedido do aluno em 2026-10-08. conversa.py ainda não rodado. Previsão (a) feita: direção correta (cresce) sem ajuda; mecanismo vago ('eu tenho que olhar o contexto'); após perguntas direcionais e pista atribuiu o reenvio ao harness, mas não listou as mensagens — tutor mostrou a lista das 6 mensagens (ajuda nível 6). Lacuna de pré-requisito: roles (system/user/assistant) não tinham sido apresentados; explicados e acrescentados à lição. Recaída do ponto fraco modelo × sistema: disse 'histórico do modelo'. Pendente: previsão (b) — nome e 🚀 no turno 4 após /esquecer (tabela das 8 mensagens apresentada) — e (c) prompt_tokens turno 5 vs 3.",
+      "next_action": "Nova sessão: pedir previsão (b) com a tabela das 8 mensagens; depois (c); rodar conversa.py (considerar criar .venv no repo — hoje 'python' aponta para o venv do Hermes Agent); comparar com as previsões; modificação de 1 linha (instrução no system → transferência); Feynman das 5 ideias.",
+      "resumable": false,
       "prerequisite_check": {
         "question": "Já chamou API de LLM via código?",
         "answer": "Não; só Cursor, Codex, OpenCode, Claude Code.",
         "implication": "Prática M01 inclui primeira chamada à API com setup guiado (SDK, chave em env var)."
       },
-      "notes": "Aluno sugeriu incluir APIs de modelos open-weight (mais baratas) no futuro — considerar em M09 (endpoints compatíveis com OpenAI).",
+      "notes": "Aluno sugeriu incluir APIs de modelos open-weight (mais baratas) no futuro — considerar em M09 (endpoints compatíveis com OpenAI). | 2026-10-08: aluno pediu que todo conceito seja explicado antes de ser usado (preferência registrada no perfil).",
       "interrupted_at": "2026-10-03T18:20:23Z",
-      "difficulty": "adequada após ajuste ao nível de Python",
+      "difficulty": "alta no ponto de roles (conceito não apresentado); adequada após explicação",
       "files_changed": [
         "lessons/01-modelos-tokens-contexto.md",
         "projects/m01-contexto/primeira_chamada.py",
         "projects/m01-contexto/conversa.py",
         "curriculum.md",
         ".ai-tutor/state.json",
-        ".ai-tutor/learner-profile.json"
-      ]
+        ".ai-tutor/learner-profile.json",
+        "session-log.md"
+      ],
+      "resumed_at": "2026-10-08T20:58:48Z",
+      "last_learner_behavior": "Previu corretamente que prompt_tokens cresce; atribuiu o reenvio do histórico ao harness após pergunta direcional.",
+      "support_level_last": 6
     }
   ],
   "lessons": [
@@ -376,7 +382,7 @@
   "next_focus": {
     "topic_id": "topic_modelos_tokens_contexto",
     "curriculum_item": "M01",
-    "reason": "Retomar sessão interrompida: previsão do experimento conversa.py."
+    "reason": "Continuar M01 em nova sessão: previsão (b) e (c) do experimento conversa.py, depois rodar e comparar."
   },
   "diagnostics": [
     {
@@ -632,5 +638,15 @@
       "entry_topic_id": "topic_modelos_tokens_contexto"
     }
   ],
-  "retrieval_attempts": []
+  "retrieval_attempts": [
+    {
+      "retrieval_id": "retrieval_0045ff42-972b-45a8-818c-fe6c46278679",
+      "session_id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+      "topic_id": "topic_modelos_tokens_contexto",
+      "prompt": "Previsão (a): prompt_tokens do turno 1 ao 3 do conversa.py cresce, diminui ou fica igual, e quais mensagens vão na chamada do turno 3.",
+      "outcome": "partial",
+      "support_level": 5,
+      "recorded_at": "2026-10-08T21:31:28Z"
+    }
+  ]
 }

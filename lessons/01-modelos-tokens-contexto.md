@@ -41,6 +41,21 @@ usando cinco ideias: **chamada stateless**, **histórico reenviado pela aplicaç
 7. **Reasoning.** Modelos com "thinking" geram tokens de raciocínio antes da resposta. Eles também ocupam orçamento de tokens
    (e custo) — raciocinar mais não é de graça.
 
+### Roles: quem disse cada mensagem (acrescentado em 2026-10-08)
+
+Cada item da lista `messages` tem uma etiqueta `role` que diz ao modelo **de quem** é aquele texto:
+
+| role | Quem escreve | Para que serve | No `conversa.py` |
+|---|---|---|---|
+| `system` | o desenvolvedor, no código | regras gerais e comportamento ("seja conciso", "responda em português") | fixa desde o início da lista |
+| `user` | a pessoa usando o app | o pedido ou a pergunta | o que você digita |
+| `assistant` | o modelo, numa chamada **anterior** | mostrar ao modelo o que "ele" já respondeu | a resposta que o harness guardou |
+
+Analogia: um ator que relê o roteiro inteiro do zero toda vez que entra em cena. As notas do diretor são o `system`; as falas do
+outro personagem, o `user`; as falas que o próprio ator já disse, o `assistant`. Como o modelo é stateless, o harness pode escrever
+qualquer texto com `role: "assistant"` e o modelo vai tratá-lo como algo que ele mesmo disse. Prioridade entre `system` e `user` e
+injeção de prompt ficam para M02 e M10.
+
 ## Exemplo concreto
 
 ```text

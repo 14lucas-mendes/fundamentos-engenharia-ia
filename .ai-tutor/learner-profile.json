@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "study_id": "study_8f47bbb3-7687-4943-88c3-03faa9ee4dde",
-  "revision": 2,
-  "updated_at": "2026-10-03T18:14:24Z",
+  "revision": 3,
+  "updated_at": "2026-10-08T21:31:28Z",
   "declared_preferences": [
     {
       "preference_id": "preference_f95d2767-4f7f-4b64-95eb-1d62d01d6343",
@@ -55,9 +55,30 @@
       "recorded_at": "2026-10-03T18:14:24Z",
       "status": "active",
       "supersedes_id": null
+    },
+    {
+      "preference_id": "preference_e32ad262-9b50-4924-b7c6-d3292d55f9aa",
+      "dimension": "explicacao_de_conceitos",
+      "value": "tratar como iniciante na formação: explicar todo conceito antes de usá-lo, mesmo que repetido ou que talvez já seja conhecido",
+      "source": "learner",
+      "recorded_at": "2026-10-08T21:31:28Z",
+      "status": "active",
+      "supersedes_id": null
     }
   ],
-  "observations": [],
+  "observations": [
+    {
+      "observation_id": "profile_observation_3c296a9d-e450-4259-95b7-9957e01e0f9c",
+      "session_id": "session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3",
+      "topic_id": "topic_modelos_tokens_contexto",
+      "type": "help_usage",
+      "value": {
+        "help_level": 6,
+        "context": "previsão (a) do conversa.py: lista de mensagens do turno 3 mostrada pelo tutor após pergunta direcional e pista parcial"
+      },
+      "recorded_at": "2026-10-08T21:31:28Z"
+    }
+  ],
   "inferences": [],
   "summary": {
     "autonomy": "unknown",

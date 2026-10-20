@@ -30,7 +30,7 @@
 
 ## session_634d4ad2-32da-42f7-84f6-4e3ecfbea2f3
 
-- Status: interrupted (retomável) — 2026-10-03T17:24:03Z → 2026-10-03T18:20:23Z
+- Status: completed — 2026-10-03T17:24:03Z → interrompida 2026-10-03T18:20:23Z → retomada 2026-10-08T20:58:48Z → encerrada 2026-10-08T21:31:28Z
 - Objetivo: M01: explicar e demonstrar por que o assistente 'esquece' (stateless, histórico reenviado, janela, context rot, compactação).
 - Lição: lesson_m01_modelos_tokens_contexto (in_progress)
 - Feito: pré-requisito (nunca chamou API via código); 5 ideias construídas por perguntas (stateless, reenvio pelo harness, janela/custo linear-quadrático, context rot, reasoning tokens); primeira chamada à API OpenAI rodada pelo aluno (37/176/213 tokens).
@@ -38,7 +38,15 @@
 - Domínio do tópico: 20 (sem mudança; evidências guiadas/parciais)
 - Evidências: evidence_2a59ab7c-8128-45a5-814e-0e4e148fc926, evidence_a493c7ca-06c2-4858-90fc-1cde139fe2ea, evidence_e813682a-d4cf-4633-b712-319800c122a1, evidence_8c5f8420-98a9-433c-b307-80093ac3aab1
 - Checkpoint: Pausa a pedido do aluno. conversa.py pronto (não rodado). Pendente: PREVISÃO (a) prompt_tokens turnos 1→3, (b) nome e 🚀 após /esquecer, (c) prompt_tokens turno 5 vs 3.
-- Próximo passo: Retomar pedindo a previsão; depois rodar, comparar, modificação de 1 linha (instrução no system → transferência), Feynman das 5 ideias.
+- Próximo passo (em 03/10): Retomar pedindo a previsão; depois rodar, comparar, modificação de 1 linha (instrução no system → transferência), Feynman das 5 ideias.
+- Retomada em 2026-10-08:
+  - Previsão (a): acertou sem ajuda que `prompt_tokens` cresce, mas o mecanismo ficou vago ("eu tenho que olhar o contexto"). Depois de perguntas direcionais e de uma pista, atribuiu o reenvio ao harness. Não listou as mensagens; o tutor mostrou a lista das 6 (ajuda nível 6). Tentativa de recuperação registrada como `partial`. Não é evidência.
+  - Lacuna de pré-requisito: os roles (`system`, `user`, `assistant`) não tinham sido apresentados. Foram explicados e acrescentados à lição.
+  - O ponto fraco modelo × sistema reapareceu quando o aluno disse "histórico do modelo".
+  - Preferência declarada: explicar todo conceito antes de usá-lo, mesmo repetido. Registrada no perfil.
+  - O domínio continua em 20. Nenhuma evidência nova.
+- Checkpoint: `conversa.py` ainda não rodado. Faltam a previsão (b), sobre o nome e o 🚀 no turno 4 depois do `/esquecer` (a tabela das 8 mensagens já foi apresentada), e a previsão (c), `prompt_tokens` do turno 5 contra o 3.
+- Próximo passo: nova sessão começando pela previsão (b). Depois (c). Rodar o script, considerando criar um `.venv` no repo, porque hoje `python` aponta para o venv do Hermes Agent. Comparar com as previsões, fazer a modificação de 1 linha e o Feynman.
 
 ## Correção de estado — 2026-10-07 (não é sessão de estudo)
 
